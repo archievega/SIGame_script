@@ -1,7 +1,7 @@
 from keyboard import read_key
 from pyscreenshot import grab
 from pyautogui import click
-
+ 
 print("Ready!")
 while key:=read_key() not in ("p", "P", "з", "З"):
     try:
@@ -12,4 +12,4 @@ while key:=read_key() not in ("p", "P", "з", "З"):
                 click(x=1750, y=930)
     except Exception as e:
         print(f"Error: {e}")
-    	continue
+        continue
